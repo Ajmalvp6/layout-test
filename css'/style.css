@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section#home{
+    height: 100vh;
+}
+
+.first{
+    background-color: brown;
+    height: 100vh;
+}
+
+.first ul li {
+    padding-top: 40px;
+    list-style: none;
+    
+    
+}
+
+.first ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav i {
+    margin-right: 10px;
+}
+
+
+.middle{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.middle img{
+    height: 50%;
+}
+
+.middle .edit-btn{
+    background-color: none;
+    width: 200px;
+    border: 1px solid brown;
+   
+   
+    
+    
+}
+
+.middle .edit-btn a{
+    
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    
+    
+}
+
+.middle .users-btn{
+    background-color: rgb(255, 0, 0);
+    padding: 25px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 350px;
+   
+    
+}
+
+.middle .users-btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+
+.right{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.right .top-right{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    
+    font-size: 30px;
+}
+
+
+.right .top{
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    
+}
